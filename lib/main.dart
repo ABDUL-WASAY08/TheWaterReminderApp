@@ -1,3 +1,4 @@
+import 'package:combinestydy/Screen/authscreen.dart';
 import 'package:combinestydy/Screen/splashscreen.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +17,7 @@ class WaterReminder extends StatelessWidget {
     return MaterialApp(
       // call the first screen of my app
       debugShowCheckedModeBanner: false,
-      home: const Splashscreen(), // my first screen
+      home: const Authscreen(), // my first screen
     );
   }
 }
